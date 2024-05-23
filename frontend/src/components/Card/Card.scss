@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.cardBody{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardBodyImg{
+    transform: translate(0,-10%);
+    width: 300px;
+    height: 300px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-hover{
+    opacity: 0;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
